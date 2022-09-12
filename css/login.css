@@ -1,0 +1,115 @@
+#login, #signup{
+    margin-top: 120px;
+    height: 550px;
+    width: 450px;
+    background-color: #003865;
+    border-radius: 50px;
+    text-align: center;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+}
+/* #login div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+} */
+#login #e, #pw{
+    width: 380px;
+    margin-bottom: 10px;
+    height: 56px;
+    border-radius: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+}
+
+#Remember{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: auto;
+}
+
+#login h1, #signup h1{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+
+#loginbtn, #signupbtn{
+    width: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 56px;
+    border-radius: 26px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif; 
+    box-shadow: 3px 3px rgba(51, 51, 51, 0.3);
+    border-style: none;
+    transition: 0.2s;
+    background-color: #3CCF4E;
+    color: #f2f2f2;
+    margin-bottom: 50px;
+    font-weight: bold; 
+}
+
+#loginbtn:hover, #signupbtn:hover{
+    filter: brightness(65%);
+    font-size: 26px;
+}
+
+#login p{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#login a{
+    color: #EF5B0C;
+}
+
+#login a:hover{
+    filter:brightness(150%);
+}
+    
+#signup #radio{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#signup h1{
+    text-align: center;
+}
+#signup #rad{
+    text-align: start;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#rad div{
+    display: flex;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+label{
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+/* *{
+    border: red;
+    border-width: 2px;
+    border-style: solid;
+} */
